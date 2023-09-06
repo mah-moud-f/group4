@@ -1,4 +1,5 @@
 const commentModel = require("../models/comment");
+// comment githup
 
 async function createComment(req, res) {
     const { content, postId } = req.body;
