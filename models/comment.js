@@ -1,5 +1,8 @@
 const mongoose = require("mongoose");
 
+
+//  schema for comments 
+
 const commentSchema = mongoose.Schema(
     {
         content: {
