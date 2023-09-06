@@ -35,7 +35,7 @@ async function getAllPosts(req, res) {
     }
 }
 
-
+//get post by id
 function getPostById(req, res) {
     const postId = req.params.id;
     postsModel
